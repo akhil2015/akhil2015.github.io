@@ -1,0 +1,19 @@
+# TEAM
+/*Team*/
+	Ravi Anand
+	Design & Development
+	From: India
+
+	Akhil Bharti
+	Design & Development
+	From: India
+
+# THANKS
+
+    	Akabar Khan
+	Founder/CEO Mecurachild
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
