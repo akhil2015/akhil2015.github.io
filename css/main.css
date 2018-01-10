@@ -130,15 +130,14 @@ textarea {
     margin-top: 75px;
 }
 #jobs{
-    height:30px;
+    display: block;
     border: 2px solid white;
-    width:600px;
-    margin:auto;
     padding-top: 3px;
     font-weight: bold;
 }
 .social{
-    margin:auto;
+    padding-top:15px;
+    clear:left;
     margin-top: 20px;
 }
 .social img:hover{
@@ -157,7 +156,7 @@ textarea {
     font-size: 1.2em;
 }
 .banner{
-    height: 600px;
+    padding-bottom: 10px;
     background-color:   #85c1e9 ;
     font-family: Montserrat;
     letter-spacing: 4px;
