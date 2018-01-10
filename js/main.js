@@ -9,13 +9,21 @@ for (var i = 0; i < doughnutArray.length; i++) {
   doughnutArray[i].stroke();
 }
 
-$('.skill').isvisible(function() {
-  loadSkills1();
-  loadSkills2();
-  loadSkills3();
-  loadSkills4();
-});
+function isVisible(){
+   //do something
+   loadSkills1();
+    loadSkills2();
+    loadSkills3();
+    loadSkills4();
+}
 
+//hookup the event
+$('.skill').bind('isVisible', isVisible);
+
+//show div and trigger custom event in callback when div is visible
+$('.skill').show('slow', function(){
+    $(this).trigger('isVisible');
+});
   /*Load skills one function*/
 function loadSkills1() {
   var ctx = document.getElementById('skill1').getContext('2d');
