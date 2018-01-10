@@ -59,7 +59,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: right;
+    vertical-align: middle;
 }
 
 /*
@@ -94,11 +94,108 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.navbar-inner {
+    background:transparent;
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:white;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color:#F77;
+}
+.navbar-inverse .navbar-brand{
+    color:white;
+    background-color: #f77;
+}
+.navbar-inverse .navbar-brand:hover{
+    background-color: white;
+    color:#f77;
+}
+.navbar-brand img{
+    height:20px;
+    display:inline-block;
+    padding-right: 10px;
+}
+.navbar-brand span{
+    font-size: 1.4em
+}
+.profile{
+    color:white;
+}
+.profile h3{
+    font-size: 1.5em;
+}
+.profile img{
+    margin-top: 75px;
+}
+#jobs{
+    height:30px;
+    border: 2px solid white;
+    width:600px;
+    margin:auto;
+    padding-top: 3px;
+    font-weight: bold;
+}
+.social{
+    margin:auto;
+    margin-top: 20px;
+}
+.social img:hover{
+    background-color: #f77;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+.social img{
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    margin-top: 0;
+    margin-right: 10px;
+}
+.navbar{
+    font-size: 1.2em;
+}
+.banner{
+    height: 600px;
+    background-color: #48c9b0;
+    font-family: Montserrat;
+    letter-spacing: 4px;
+}
+#about{
+    padding-bottom:15px;
+    border-bottom: 3px solid #f77;
+}
 
+.aboutimg{
+    width:100%;
+    height:auto;
+}
+.exp{
+    background-color: #48c9b0;
+    font-family: Montserrat;
+    color: white;
+    border:5px solid white;
+}
+.exp p{
+    font-size: 1.2em;
+}
+.exp h3{
+    border-bottom:2px solid white;
+    letter-spacing: 2px;
+}
 
-
-
-
+footer{
+    background-color: #48c9b0;
+    font-family: Montserrat;
+    font-size: 1.1em;
+    color:white;
+    font-weight:bold;
+    padding:5px;
+}
+footer span{
+    color:#f77;
+}
 
 
 
@@ -202,7 +299,11 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
-
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
 
 @media print {
     *,
@@ -211,7 +312,8 @@ textarea {
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; 
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -245,6 +347,10 @@ textarea {
         page-break-inside: avoid;
     }
 
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
 
     thead {
         display: table-header-group;
