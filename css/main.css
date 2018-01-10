@@ -192,6 +192,9 @@ textarea {
     border-bottom: 3px solid #f77;
     transition: 0.6s ease;
 }
+.active{
+    background-color:#f77;
+}
 
 body{
 font-family: Montserrat;
