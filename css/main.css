@@ -177,12 +177,30 @@ textarea {
     color: white;
     border:5px solid white;
 }
+.exp:hover{
+    background-color:#f77;
+}
 .exp p{
     font-size: 1.2em;
 }
 .exp h3{
     border-bottom:2px solid white;
     letter-spacing: 2px;
+}
+#work .container{
+    padding-bottom: 20px;
+    border-bottom: 3px solid #f77;
+    transition: 0.6s ease;
+}
+
+body{
+font-family: Montserrat;
+}
+#doughnut,#doughnut2,#doughnut3,#doughnut4{
+  position: absolute;
+}
+#skill1,#skill2,#skill3,#skill4{
+  position: relative;
 }
 
 footer{
