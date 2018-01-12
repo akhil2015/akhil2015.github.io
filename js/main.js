@@ -51,7 +51,7 @@ function loadSkills1() {
     }
     al++;
   }
-  var sim = setInterval(progressSim, 20); //speed  	
+  var sim = setInterval(progressSim,35); //speed  	
 }
 /*loadSkills2 function*/
 function loadSkills2() {
@@ -80,7 +80,7 @@ function loadSkills2() {
     }
     al++;
   }
-  var sim = setInterval(progressSim, 30); //speed
+  var sim = setInterval(progressSim,35); //speed
 }
 
 /* loadSkill3 function*/
@@ -110,7 +110,7 @@ function loadSkills3() {
     }
     al++;
   }
-  var sim = setInterval(progressSim, 40); //speed
+  var sim = setInterval(progressSim,35); //speed
 }
 /* loadSkill4 function*/
 function loadSkills4() {
@@ -139,5 +139,5 @@ function loadSkills4() {
     }
     al++;
   }
-  var sim = setInterval(progressSim, 50); //speed
+  var sim = setInterval(progressSim,35); //speed
 }
