@@ -219,7 +219,7 @@ font-family: Montserrat;
 .contact .social img:hover{
     background-color: #85c1e9;
 }
-.contact h1{
+.contact h3{
     font-size: 1.5em;
     letter-spacing: 2px;
     border-top: 2px solid #85c1e9;
@@ -244,6 +244,9 @@ footer{
 }
 footer span{
     color:#f77;
+}
+.skill-header{
+    font-size:1.4em;
 }
 
 
