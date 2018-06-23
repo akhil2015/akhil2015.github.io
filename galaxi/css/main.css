@@ -1,0 +1,159 @@
+#top{
+    background: white;
+    height: 25px
+}
+.mini-container{
+    width:90%;
+    margin:auto;
+    margin-left:10px;
+}
+.social-links{
+    color:white;
+    float: left;
+    list-style-type: none;
+    display: block;
+}
+#top li{
+    display: inline-block;
+    margin-right:10px; 
+}
+.contact-info{
+    color:white;
+    display: block;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.contact-info li{
+    float: right;
+}
+.top-link:hover{
+    border:1px solid black;
+}
+body{
+    background: white;
+}
+.col_half{
+	width: 49%;
+}
+.col_third{
+	width: 32%;
+}
+.col_fourth{
+	width: 23.5%;
+}
+.col_fifth{ 
+	width: 18.4%; 
+}
+.col_sixth{ 
+	width: 15%; 
+}
+.col_three_fourth{ 
+	width: 74.5%;
+}
+.col_twothird{ 
+	width: 66%;
+}
+.col_half,.col_third,.col_twothird,.col_fourth,.col_three_fourth,.col_fifth{
+    position: relative;
+    display:inline;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.end { 
+	margin-right: 0 !important; 
+}
+/* Column Grids End */
+
+
+.counter { 
+	background-color: #ffffff; padding: 20px 0; border-radius: 5px;
+}
+.count-title { 
+	font-size: 40px; 
+	font-weight: normal;  
+	margin-top: 10px; 
+	margin-bottom: 0; 
+	text-align: center; 
+}
+.count-text {
+	font-size: 13px; 
+	font-weight: normal;  
+	margin-top: 10px; 
+	margin-bottom: 0; 
+	text-align: center; 
+}
+.fa-2x { 
+	margin: 0 auto; 
+	float: none; display: table; 
+	color: #4ad1e5; 
+}
+.numscroller{
+    font-size:2em;
+    color:#515769;
+}
+.fa-stack{
+    font-size: 1.5em;
+}
+#job-link{
+    background: white;
+    margin-top:25px;
+    width:120px;
+    text-align: center;
+    border:2px solid #333;
+}
+#job-link a:hover{
+    border:2px solid white;
+    background: black;
+}
+#products{
+    background-color:#111;
+}
+.footer{
+    background: #111;
+    color:white;
+}
+.footer-list-item a{
+    color:white;
+}
+.content a{
+    
+    color: white;
+}
+.ns{
+    color:#515769;
+}
+
+.count-text{
+    color:#515769;
+    font-size:20px;
+}
+.wrapper{
+    text-align: center;
+}
+#stats{
+    padding-bottom: 40px;
+    border-bottom: 4px solid #515769;
+}
+#stats i{
+	font-size:4em;
+}
+.js_nav-item .logo{
+    position: absolute;
+}
+.form-control{
+    background: #EEE;
+}
+.contact{
+    padding:30px;
+    border-top : 4px solid #515769;
+}
+#query{
+	height:120px;
+	text-align:left;
+}
+.hiring{
+    padding:30px;
+    border-bottom : 4px solid #515769;
+}
