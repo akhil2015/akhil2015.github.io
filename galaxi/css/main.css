@@ -11,11 +11,12 @@
     color:white;
     float: left;
     list-style-type: none;
-    display: block;
+    display: inline-block;
+    padding-left:15px;
 }
 #top li{
     display: inline-block;
-    margin-right:10px; 
+    margin-right:15px; 
 }
 .contact-info{
     color:white;
@@ -26,8 +27,8 @@
 .contact-info li{
     float: right;
 }
-.top-link:hover{
-    border:1px solid black;
+.top-link{
+    margin-left: 0px;
 }
 body{
     background: white;
@@ -157,4 +158,22 @@ body{
     padding:30px;
     border-bottom : 4px solid #515769;
 }
-
+.header .logo-img{
+    width:90px;
+    height:auto;
+    padding:5px;
+}
+.footer .footer-logo{
+    width:100px;
+    height:auto;
+    padding:0px;
+}
+.copyright{
+    padding-top:40px;
+}
+.copy-container{
+    padding-top: 0;
+}
+#linkedin{
+    margin-left:15px;
+}

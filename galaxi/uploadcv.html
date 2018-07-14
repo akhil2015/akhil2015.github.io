@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload CV</title>
+	 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	 <style>
+	 	body{
+	 		background: url(./img/j_bg.png);
+	 		background-size: 100%;
+	 	}
+	 </style>
+</head>
+<body>
+	<div class="container">
+          <form class="hiring" action="apply.php" method="POST">
+            <h2>Upload CV</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="first">First Name</label>
+                  <input type="text" class="form-control" name="first" placeholder="First Name" id="first">
+                </div>
+              </div>
+              <!--  col-md-6   -->
+
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="last">Last Name</label>
+                  <input type="text" class="form-control" name="last" placeholder="Last Name" id="last">
+                </div>
+              </div>
+              <!--  col-md-6   -->
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="abc@example.com">
+                </div>
+              </div>
+               <div class="col-sm-6">
+
+                <div class="form-group">
+                  <label for="position">Position</label>
+                  <input type="text" class="form-control" name="position" id="position" placeholder="e.g. Senior Data Scientist">
+                </div>
+              </div>
+              <!--  col-md-6   -->
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="cv_upload">Upload Your CV</label>
+                  <input type="file" class="" name="hire_cv" id="cv_upload" >
+                </div>
+
+              </div>
+            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+</body>
+</html>
