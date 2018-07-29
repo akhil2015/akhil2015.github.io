@@ -250,3 +250,14 @@ $(window).load(function () {
  /* Preloder End
 -------------------------------------------------------------------*/
    
+$(document).ready(function() {
+    $("#main-menu").hide();
+});
+
+$(window).on("scroll", function () {
+   if ($(this).scrollTop() > 100) {
+      $("#main-menu").show();
+   } else {
+      $("#main-menu").hide();
+   }
+});
