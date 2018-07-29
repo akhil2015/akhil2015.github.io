@@ -252,6 +252,7 @@ $(window).load(function () {
    
 $(document).ready(function() {
     $("#main-menu").hide();
+    $("#hidden").hide();
 });
 
 $(window).on("scroll", function () {
@@ -261,3 +262,8 @@ $(window).on("scroll", function () {
       $("#main-menu").hide();
    }
 });
+$("#more").click(function(){
+    $("#hidden").slideToggle(800);
+    $("#more").hide();
+
+}); 

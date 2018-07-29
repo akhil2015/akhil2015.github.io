@@ -1226,4 +1226,13 @@ a.button {
 .team-con{
 	width:80%;
 	margin:auto;
+	text-align: center;
+}
+.team-con button{
+	font-size: 1.2em;
+	font-weight:bold;
+	background-color: #333;
+}
+.team-con button:hover{
+	text-decoration: underline;
 }
