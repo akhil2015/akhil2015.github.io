@@ -1278,9 +1278,7 @@ input[type="text"] {
 	background-position: center;
 }
 #timeline{
-	background-image:url("../../images/background/service.gif");
-	background-position: center;
-	background-size: 100%;
+	background-image:url("../../images/background/timeline.jpg");
 	text-align: center;
 }
 #timeline img{
@@ -1499,3 +1497,14 @@ input[type="text"] {
   
 }
 /*===== // Resonsive Vertical Timeline =====*/
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
