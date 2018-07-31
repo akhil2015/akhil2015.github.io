@@ -266,4 +266,20 @@ $("#more").click(function(){
     $("#hidden").slideToggle(800);
     $("#more").hide();
 
-}); 
+});
+$(window).on("scroll", function () {
+   if ($(this).scrollTop() > 600) {
+      $("#team").show(1000);
+   } else {
+      $("#team").hide(1000);
+   }
+});
+
+
+$(document).ready(function(){
+  $(".box").click(function(){
+    $(this).next().slideToggle("fast");
+    $(this).find('i').toggle();
+  });  
+
+});
