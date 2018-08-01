@@ -267,13 +267,6 @@ $("#more").click(function(){
     $("#more").hide();
 
 });
-$(window).on("scroll", function () {
-   if ($(this).scrollTop() > 450) {
-      $("#team").show(1000);
-   } else {
-      $("#team").hide(1000);
-   }
-});
 
 
 $(document).ready(function(){
