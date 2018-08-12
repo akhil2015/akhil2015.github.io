@@ -6,17 +6,15 @@ body{
 	font-family:'Patua One';
 	letter-spacing: 3px;
 }
-h1{
-	font-size: 48px;
-}
+
 #ans{
-	font-size: 60px;
+	font-size: 75px;
 }
 #bigmac{
-	font-size: 60px;
+	font-size: 75px;
 }
 .banner{
-	padding-top: 10px;
+	padding-top: 100px;
 }
 .footer {
     position: fixed;
