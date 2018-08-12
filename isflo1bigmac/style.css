@@ -1,0 +1,23 @@
+body{
+	background:#333;
+	color:white;
+	text-align: center;
+}
+
+#ans{
+	font-size: 3em;
+}
+#bigmac{
+	font-size: 1.5em;
+}
+.banner{
+	padding-top: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top:3px solid white;
+    padding: 10px;
+}
