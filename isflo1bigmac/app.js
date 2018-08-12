@@ -25,7 +25,7 @@ function convertFLO_BIGMAC() {
         	document.getElementById("ans").innerHTML = 'NO';
         	document.getElementById('ans').style.color = 'red';
         }
-        var mac_quantity = Math.round((r_flo_price/3.99)*1000)/1000;
+        var mac_quantity = Math.round((3.99/r_flo_price)*100)/100;
         document.getElementById("bigmac").innerHTML = mac_quantity;
     });
 }
